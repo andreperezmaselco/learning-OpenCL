@@ -8,5 +8,5 @@ For now, the program prints information about the OpenCL platforms available on 
 ## Build
 
 ```
-cmake -B build && cmake --build build
+cmake -B build -G Ninja && cmake --build build
 ```
